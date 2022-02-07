@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(192, 75, 192, 0.329), rgba(135, 98, 165, 0.822));
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+    height: 97vh;
+}
+
+.calculadora {
+    background-color: violet;
+    border-radius: 12px;
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: rgb(187, 181, 181);
+    transition: 0.7s;
+}
+
+.botao-igual {
+    height: 106px;
+    border-radius: 120px;
+    color: white;
+    background-color: rgb(114, 43, 161);
+}
+
+.botao-igual:hover {
+    background-color: rgb(82, 3, 82);
+    transition: 0.7s;
+}
+
+.botao-zero {
+    width: 106px;
+    border-radius: 80px;
+}
+
+.botao-color {
+    color: white;
+    background-color: rgb(114, 43, 161);
+}
+
+.botao-color:hover {
+    background-color: rgb(82, 3, 82);
+    transition: 0.7s;
+}
+
+#res {
+    width: 222px;
+    height: 60px;
+    margin: 6px;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    height: 3vh;
+}
+
+
